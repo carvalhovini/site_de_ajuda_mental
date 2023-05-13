@@ -1,0 +1,151 @@
+body {
+    background-image:url(../background.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title {
+    margin-left: 20px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    margin-right: 20px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    background-color: #008CBA;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-out;
+  }
+  
+  nav a:hover {
+    background-color: #000;
+  }
+  
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .user-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #333;
+    z-index: 1;
+  }
+  
+  .user-options a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+  .user-options a:hover {
+    color: #fff;
+    background-color: #008CBA;
+  }
+  
+  
+  .user-profile:hover .user-options {
+    display: block;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ddd;
+    margin: 10px;
+    padding: 50px;
+    width: calc(33.33% - 30px);
+    box-sizing: border-box;
+  }
+  
+  
+  .box h2 {
+    margin-top: 0;
+  }
+
+  .saiba-mais {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.saiba-mais:hover {
+  background-color: #000000;
+  color: #fff;
+}
